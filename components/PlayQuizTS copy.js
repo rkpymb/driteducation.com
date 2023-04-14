@@ -211,7 +211,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
         if (nextQuestion < QuesData.length) {
             setCurrentQuestion(nextQuestion);
         } else {
-
+           
 
             // SendOPSDATA(QuiuzTakenTime, QuiuzTakenTimeFormat)
         }
@@ -220,11 +220,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
         if (DoneQues < 1) {
             alert('please attempt some quetions before Final Submiting Test')
         } else {
-            let text = "Do you Really want to submit this Test ?";
-            if (confirm(text) == true) {
-                SendOPSDATA(QuiuzTakenTime, QuiuzTakenTimeFormat)
-            } 
-           
+            SendOPSDATA(QuiuzTakenTime, QuiuzTakenTimeFormat)
         }
 
     }
@@ -258,7 +254,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
 
 
     const handleAnswerOptionClick = (itemCode, TitleC, StstusC, QueID, QueTitle, MARKQS) => {
-        console.log(itemCode)
+        console.log(cart)
         document.getElementById("QueNoTab" + currentQuestion).style.backgroundColor = "lightblue";
         // document.getElementById("OptionSeleCtedDiv" + itemCode).style.backgroundColor = "pink";
         let newCart = cart;
@@ -269,7 +265,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
         if (QueID in cart) {
 
             const dd = Object.keys(cart).length
-            // console.log(dd)
+            console.log(dd)
             setDoneQues(dd)
             setCart(newCart);
 
@@ -421,7 +417,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
 
                             {!ViewSubmit &&
                                 <div className={styles.container}>
-
+                                    
                                     <div className={styles.StartertestBox} style={{ backgroundColor: 'white' }}>
                                         <div style={{ height: '20px' }}> </div>
                                         <div style={{ textAlign: 'center', fontSize: '15px', fontWeight: 'bold' }}>
@@ -481,7 +477,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
                                                 {QuesData[currentQuestion].ANSLIST.map((answerOption) => (
                                                     <div id={'OptionSeleCtedDiv' + answerOption.id} className={styles.OptionsItem} onClick={() => handleAnswerOptionClick(answerOption.id, answerOption.Title, answerOption.status, answerOption.QueID, answerOption.QueTitle, QuesData[currentQuestion].MARKQS)}>
                                                         <span>{answerOption.id}{answerOption.Title}</span>
-                                                    </div>
+                                                    </div>       
                                                 ))}
                                             </div>
                                         </div>

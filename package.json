@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@material-ui/styles": "^4.11.5",
     "@mui/icons-material": "^5.10.14",
     "@mui/material": "^5.10.6",
     "@mui/styled-engine-sc": "^5.10.6",
@@ -30,6 +31,7 @@
     "react-icons": "^4.4.0",
     "react-lottie": "^1.2.3",
     "react-share": "^4.4.1",
+    "react-swipeable-views": "^0.14.0",
     "react-top-loading-bar": "^2.3.1",
     "shortid": "^2.2.16",
     "styled-components": "^5.3.5",
