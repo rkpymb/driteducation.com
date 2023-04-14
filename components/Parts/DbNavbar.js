@@ -17,7 +17,7 @@ const Navbar = (props) => {
           <div className={styles.logo}>
             <Link href='/'>
               <div className={styles.logomain}>
-                <img src='/logo/dritlogomain.svg' alt='logo' className={styles.NavLogo} />
+                <img src='/logo/logomain.png' alt='logo' className={styles.NavLogo} />
               </div>
             </Link>
           </div>

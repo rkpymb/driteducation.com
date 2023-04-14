@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['aitechnolog.com', 'api.driteducation.com'],
+    domains: ['aitechnolog.com', 'api.driteducation.com', 'server.supermarks.in'],
   },
   eslint: {
     ignoreDuringBuilds: true,

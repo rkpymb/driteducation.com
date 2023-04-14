@@ -10,8 +10,8 @@ const AllCourses = () => {
     return (
         <>
             <Head>
-                <title>Courses : {AppName} Best Courses For CBSE, ICSE, JEE</title>
-                <meta name="description" content="Best Courses For CBSE, ICSE, JEE" />
+                <title>Courses : {AppName} Best Courses For CBSE, ICSE, JEE, NEET, CTET , STET</title>
+                <meta name="description" content="Best Courses For CBSE, ICSE, JEE, NEET, CTET , STET" />
             </Head>
             <NavbarNew />
            

@@ -173,15 +173,12 @@ const Login = ({ BackDropOpen, BackDropClose }) => {
         } else {
             BackDropClose()
             setIsalert(true);
-
         }
-
-
     }
 
     const SendWelcomeMsg = async () => {
         const sendUM = { mobile:usermobile }
-        const data = await fetch("https://api.driteducation.com/api/Send/Email/Send_Student/Welcome/emailsend.php", {
+        const data = await fetch(`${BASE_URL}api/Send/Email/Send_Student/Welcome/emailsend.php`, {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -214,7 +211,7 @@ const Login = ({ BackDropOpen, BackDropClose }) => {
                             </div>
                             <div className={styles.logomainBox}>
                                 <div className={styles.logomain}>
-                                    <img src='/logo/dritlogomain.svg' alt='logo' />
+                                    <img src='/logo/logomain.png' alt='logo' />
                                 </div>
                                 <div><h3>Log in to your Account </h3>
                                     <small>Enter your Phone number to continue OTP will be sent on this number for verfification</small>

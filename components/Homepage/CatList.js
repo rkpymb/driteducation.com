@@ -41,9 +41,97 @@ const CategoriesList = () => {
 
         <>
             {isLoading &&
-                <div style={{ padding: '10px' }}>
-                    <Skeleton variant="rounded" className={styles.LoaderFull} height={190} />
+                
+                <div style={{padding:'10px'}}>
+
+                    <div className={styles.TitleBoxBtn}>
+                        <div className={styles.TitleBoxBtn_TEXTCat}>
+                            <span>Choose Your Class or Topics</span>
+                        </div>
+                        <div className={styles.TitleBoxBtn_BTN}>
+                            <Link href='Categories' style={{ textDecoration: 'none' }}>
+                                <span>View All</span>
+                            </Link>
+                        </div>
                     </div>
+                    <div className={styles.CatGrid}>
+                        
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                        <div className={styles.CatBoxItemCenter}>
+                            <div>
+                                <Skeleton variant="circular" height={70} width={70} />
+                            </div>
+                            <div style={{ height: '10px' }}> </div>
+                            <div>
+                                <Skeleton variant="rounded" height={10} width={80} />
+
+                            </div>
+                        </div>
+                       
+
+                       
+                    </div>
+                  
+                </div>
                 
             }
 
@@ -54,8 +142,8 @@ const CategoriesList = () => {
                 <div style={{padding:'10px'}}>
 
                     <div className={styles.TitleBoxBtn}>
-                        <div className={styles.TitleBoxBtn_TEXT}>
-                            <span>Choose Your Category</span>
+                        <div className={styles.TitleBoxBtn_TEXTCat}>
+                            <span>Choose Your Class or Topics</span>
                         </div>
                         <div className={styles.TitleBoxBtn_BTN}>
                             <Link href='Categories' style={{ textDecoration: 'none' }}>
@@ -65,14 +153,14 @@ const CategoriesList = () => {
                     </div>
                     <div className={styles.CatGrid}>
                         {Retdata.map((item) => {
-                            return <Link href={`/Category/${item.catid}`} style={{ textDecoration: 'none' }}>
+                            return <Link href={`/category/${item.catid}`} style={{ textDecoration: 'none' }}>
                                 <div className={styles.CatBoxItemCenter}>
                                     <div>
                                         <Image
                                             src={`${BASE_URL}Storage/panel/img/${item.catimg}`}
                                             alt="Picture of the author"
-                                            width={50}
-                                            height={50}
+                                            width={70}
+                                            height={70}
                                         />
                                     </div>
                                     <div>

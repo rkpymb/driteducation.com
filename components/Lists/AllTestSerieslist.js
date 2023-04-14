@@ -41,62 +41,110 @@ const AllTestSerieslist = () => {
     return (
         <>
             {isLoading &&
-                <div >
+                <div>
                     <div style={{ height: '20px' }}> </div>
-                    <Skeleton variant="rectangular" style={{ minHeight: '100vh' }} />
+                    <div className={styles.CourseListBox}>
+                        <div className={styles.CourseGrid}>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div style={{ height: '20px' }}> </div>
                 </div>
             }
             {!isLoading &&
                 <div>
-                    <div className={styles.Space5Mobile}> </div>
-                    <div className={styles.CoverBoxTestSeries}>
-                        <div className={styles.CoverBoxTestSeriesText} >
-                            <div>
-                                <h1 style={{ margin: '0' }}>Recommended Best <span style={{ color: '#1d75bd' }}>Test Series</span> </h1>
-                            </div>
-                            <div> <span>We have listes the best Test Series for your best journey for preparation of different category.</span></div>
-                            <div> </div>
-                            <div style={{ height: '20px' }}> </div>
-                            <div className={styles.stickerBox}>
-                                <div className={styles.stickerItem} style={{ backgroundColor: 'white' }}>
-                                    <div>
-                                        <Image src={`${BASE_URL}Storage/img/icons/presentation.png`} height={50} width={50} />
-                                    </div>
-                                    <div className={styles.stickerItemtext}>
-                                        <span style={{ color: 'black' }}>Designed by Top Educators</span>
-                                    </div>
-                                </div>
-
-                                <div className={styles.stickerItem} style={{ backgroundColor: 'white' }}>
-                                    <div>
-                                        <Image src={`${BASE_URL}Storage/img/icons/conversation.png`} height={50} width={50} />
-                                    </div>
-                                    <div className={styles.stickerItemtext}>
-                                        <span style={{ color: 'black' }}>Most Important Covered</span>
-                                    </div>
-                                </div>
-                                <div className={styles.stickerItem} style={{ backgroundColor: 'white' }}>
-                                    <div>
-                                        <Image src={`${BASE_URL}Storage/img/icons/analysis.png`} height={50} width={50} />
-                                    </div>
-                                    <div className={styles.stickerItemtext}>
-                                        <span style={{ color: 'black' }}>Analysis of your Scores</span>
-                                    </div>
-                                </div>
-                                <div className={styles.stickerItem} style={{ backgroundColor: 'white' }}>
-                                    <div>
-                                        <Image src={`${BASE_URL}Storage/img/icons/coaching.png`} height={50} width={50} />
-                                    </div>
-                                    <div className={styles.stickerItemtext}>
-                                        <span style={{color:'black'}}>Mentors Feedback your Results</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.CoverBoxTestSeriesPoster}>
-                            <img src={`/img/brand-amb.png`} className={styles.CoverBoxTestSeriesPosterIMG} />
-                        </div>
-                    </div>
+                  
+                   
                     <div style={{ height: '50px' }}> </div>
                     <div className={styles.CourseListBox}>
                         <div className={styles.CourseGrid}>

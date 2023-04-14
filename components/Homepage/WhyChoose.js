@@ -12,8 +12,8 @@ export default function WhyChoose() {
     return (
         <div className={styles.WhyChooseBox}>
             <div className={styles.WhyChooseBoxA}>
-                <div><h1>WHY CHOOSE {AppName} ?</h1></div>
-                <div><span>in addition to our Honest Job Guarantee Policy, Coding Invaders delivers a stimulating learning environment to enrich the entire learning process. We start from the basics and move to the advanced level. We provide real business case studies and projects to help you cope with the demands of the IT industry. Our career module allows an unlimited number of mock interviews, assists in building the CV, Linkedin profile, portfolios and applying for job vacancies, with a career coach to guide you constantly.</span></div>
+                <div><h1 style={{color:'white'}}>Why Choose {AppName} ?</h1></div>
+                <div style={{padding: '10px'}}><span style={{ color: 'white' }}>We are a fastly growing community. We are taking our platform online and sharing some of our students' achievements in the section above, we are dedicated towards students who trust us.</span></div>
             </div>
             <div style={{ height: '30px' }}> </div>
             <div className={styles.WhyChooseBoxB}>

@@ -16,22 +16,20 @@ export default function PassHeroBox() {
 
             <div className={styles.PassHeroBoxA}>
                 <div className={styles.PassHeroBoxAImg}>
-                    <Image src={img1} height={400} width={400} />
+                    <img src='https://server.supermarks.in/Storage/img/downapp2.png' />
                 </div>
-
-
             </div>
             <div className={styles.PassHeroBoxB}>
-                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Learn with {AppName} Experts</span>
+                <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Learn with <span style={{ color:'#ff693d'}}>{AppName} App</span></span>
                 {/* <div>
                     <Image src={Logo} height={50} width={150} />
                 </div> */}
                 <div>
-                    Get unlimited access to the most relevant Mock Tests,Interview on India #1 Online Job Guarantee platform.
+                    Start your learning journey now!
                 </div>
                 <div style={{ height: '20px' }}> </div>
                 <div>
-                    <span style={{ fontSize: '15px', fontWeight: 'bold' }}> What you get with {AppName} Pass</span>
+                    <span style={{ fontSize: '15px', fontWeight: 'bold' }}> DOWNLOAD THE APP NOW</span>
                 </div>
                 <div style={{ height: '20px' }}> </div>
                 <div className={styles.PassHeroItemBox}>
@@ -40,7 +38,7 @@ export default function PassHeroBox() {
                             <Image src={Icon1} height={30} width={30} />
                         </div>
                         <div style={{ marginLeft: '5px' }}>
-                            <span style={{ fontWeight: '500' }}>Best Educators from the industry</span>
+                            <span style={{ fontWeight: '500' }}>Best Educators</span>
                         </div>
                     </div>
                     <div className={styles.PassHeroItem}>
@@ -60,7 +58,7 @@ export default function PassHeroBox() {
                             <Image src={Icon2} height={30} width={30} />
                         </div>
                         <div style={{ marginLeft: '5px' }}>
-                            <span style={{ fontWeight: '500' }}>Latest Interview
+                            <span style={{ fontWeight: '500' }}>Latest
                                 Patterns</span>
                         </div>
                     </div>
@@ -69,16 +67,15 @@ export default function PassHeroBox() {
                             <Image src={Icon4} height={30} width={30} />
                         </div>
                         <div style={{ marginLeft: '5px' }}>
-                            <span style={{ fontWeight: '500' }}>Multi-lingual
-                                Mock Tests</span>
+                            <span style={{ fontWeight: '500' }}>Multi-lingual</span>
                         </div>
                     </div>
 
                 </div>
                 <div style={{ height: '20px' }}> </div>
-                <Link href='/AllCourses' style={{ textDecoration: 'none' }}>
+                <Link href='https://play.google.com/store/apps/details?id=com.supermarksapp' style={{ textDecoration: 'none' }}>
                     <div className={styles.GetStartedBTN}>
-                        <span>Get Started Today</span>
+                        <span>DOWNLOAD APP</span>
                     </div>
                 </Link>
                 <div style={{ height: '20px' }}> </div>

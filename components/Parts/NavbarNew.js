@@ -18,7 +18,7 @@ const Navbar = (props) => {
                     <div className={styles.logo}>
                         <Link href='/'>
                             <div className={styles.logomain}>
-                                <img src='/logo/dritlogomain.svg' alt='logo' className={styles.NavLogo} />
+                                <img src='/logo/logomain.png' alt='logo' className={styles.NavLogo} />
                             </div>
                         </Link>
                     </div>
@@ -36,13 +36,13 @@ const Navbar = (props) => {
                         </Link>
                     </div>
                     <div className={styles.MainMenu}>
-                        <Link href='/StudyMaterials' style={{ textDecoration: 'none' }}>
+                        <Link href='/' style={{ textDecoration: 'none' }}>
                             <li>Materials</li>
                         </Link>
                     </div>
                     <div className={styles.MainMenu} >
-                        <Link href='/Doubts' style={{ textDecoration: 'none' }}>
-                            <li>Doubts</li>
+                        <Link href='https://ai-chatgpt-1.vercel.app/' style={{ textDecoration: 'none' }}>
+                            <li>Ask Doubts</li>
                         </Link>
                     </div>
                 </div>

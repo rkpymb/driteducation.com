@@ -42,24 +42,109 @@ const CoursesHomelist = () => {
     return (
         <>
             {isLoading &&
-                <div >
-                    <Skeleton variant="rectangular" height={150} />
+                <div>
+                    <div style={{ height: '20px' }}> </div>
+                    <div className={styles.CourseListBox}>
+                        <div className={styles.CourseGrid}>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className={styles.CourseItems}>
+                                <div>
+                                    <Skeleton variant="rectangular" height={150} />
+                                </div>
+                                <div className={styles.CourseItemsData}>
+                                    <div className={styles.CourseItemstitlebox}>
+                                        <span><Skeleton variant="rectangular" height={10} /></span>
+                                        <div style={{ height: '10px' }}> </div>
+                                        <Skeleton variant="rectangular" height={10} />
+                                    </div>
+                                    <div>
+                                        <span><Skeleton variant="rectangular" height={30} width={100} /></span>
+                                        <div style={{ height: '20px' }}> </div>
+
+                                    </div>
+
+                                    <div className={styles.coursestickerBoxFooter}>
+                                        <Skeleton variant="rectangular" height={10} width={300} />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div style={{ height: '20px' }}> </div>
                 </div>
             }
             {!isLoading &&
                 <div>
-                    <div className={styles.CoverBox} >
-                        <div className={styles.CoverBoxText} >
-                            <div>
-                                <h1 style={{ margin: '0' }}>Recommended Job Ready <span style={{ color: '#ff693d' }}>Courses</span> </h1>
-                            </div>
-                            <div> <span>We have listes the best Courses for your best journey for preparation of different category.</span></div>
-                            <div> </div>
-
-
-                        </div>
-
-                    </div>
+                   
                     <div style={{ height: '30px' }}> </div>
                     <div className={styles.CourseListBox}>
                         <div className={styles.CourseGrid}>

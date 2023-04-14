@@ -209,7 +209,7 @@ export default function PlayQuiz({ Pid, ChapterName, ChapterID, duration, totalM
         const nextQuestion = currentQuestion + 1;
         setAttemtedQuestion(nextQuestion)
         if (nextQuestion < QuesData.length) {
-            setCurrentQuestion(nextQuestion);
+            setCurrentQuestion(nextQuestion)
         } else {
 
 

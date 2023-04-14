@@ -30,16 +30,16 @@ export default function App() {
                 className={styles.HeroSlider}
             >
                 <SwiperSlide>
-                    <Link href={`/AllCourses`} style={{ textDecoration: 'none' }}>
+                    <Link href={`/Category/JEE`} style={{ textDecoration: 'none' }}>
                         <div className={styles.HeroSliderIMg}>
-                            <img src={'https://api.driteducation.com/Storage/img/Posters/homep1.jpg'} />
+                            <img src={'https://server.supermarks.in/Storage/panel/img/posert11.jpg'} />
                         </div>
                     </Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Link href={`Course/React-Native-complete-course-Learn-App-Development`}  style={{ textDecoration: 'none' }}>
+                    <Link href={`/Category/CTET`}  style={{ textDecoration: 'none' }}>
                     <div className={styles.HeroSliderIMg}>
-                        <img src={'https://api.driteducation.com/Storage/img/Posters/appdevelopment.jpg'} />
+                            <img src={'https://server.supermarks.in/Storage/panel/img/poster2im.jpg'} />
                         </div>
                     </Link>
                 </SwiperSlide>

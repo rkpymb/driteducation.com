@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
     <CheckloginStates>
       <Head>
         <meta name="description" content="Best Courses Website" />
-        <link rel="icon" href="./logo/feviimg.svg" />
+        <link rel="icon" href="./logo/logomain.png" />
       </Head>
       <LoadingBar
         color='red'

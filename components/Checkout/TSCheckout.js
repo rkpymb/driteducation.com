@@ -158,7 +158,7 @@ export default function CourseCheckout({ DataCourse }) {
     return (
         <div>
             <div className={styles.EnrollBtn_Course} style={{ backgroundColor: '#f1582e' }} onClick={handleClickOpen}>
-                <span>Buy Course</span>
+                <span>Buy Test Series</span>
             </div>
 
             <Dialog

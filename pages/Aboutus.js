@@ -23,7 +23,7 @@ const Account = () => {
                <div style={{padding:10}}>
                     <h3>About us</h3>
 
-                    <p>DR IT EDUCATION offers industry-relevant Courses and Test Series to crack your Jobs with high performance and get succeeded in your Career. 👍</p>
+                    <p>SuperMarks offers industry-relevant Courses and Test Series to crack your Jobs with high performance and get succeeded in your Career. 👍</p>
                </div>
 
 

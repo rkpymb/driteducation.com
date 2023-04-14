@@ -12,7 +12,7 @@ const Footer = () => {
           <div className={styles.dataspacer}> </div>
           <Link href='/' style={{ textDecoration: 'none' }}>
             <div className={styles.logomain}>
-              <img src='/logo/dritlogomain.svg' alt='logo' className={styles.NavLogo} />
+              <img src='/logo/logomain.png' alt='logo' className={styles.NavLogo} />
             </div>
           </Link>
           <p>{AppName} {ShortAbout}</p>
@@ -37,12 +37,6 @@ const Footer = () => {
         </div>
         <div className={styles.FooterBox_menu}>
           <h3>Important Links</h3>
-          <Link href='/AllCourses' style={{ textDecoration: 'none',color:'white' }}>
-            <li>Courses </li>
-          </Link>
-          <Link href='/Dashboard' style={{ textDecoration: 'none',color:'white' }}>
-            <li>My Dashboard </li>
-          </Link>
           <Link href='/Aboutus' style={{ textDecoration: 'none',color:'white' }}>
             <li>About us </li>
           </Link>
@@ -67,21 +61,26 @@ const Footer = () => {
          
         </div>
         <div className={styles.FooterBox_menu}>
-          <h3>Institute Links</h3>
+          <h3>Login Links</h3>
           
-          <Link href='https://erp.driteducation.com/students/login' style={{ textDecoration: 'none',color:'white' }}>
+          <Link href='/Login' style={{ textDecoration: 'none',color:'white' }}>
             <li>Student Login </li>
           </Link>
-          <Link href='https://erp.driteducation.com/centers/login' style={{ textDecoration: 'none',color:'white' }}>
-            <li>Center Login </li>
+          <Link href='/Dashboard' style={{ textDecoration: 'none', color: 'white' }}>
+            <li>Student's Dashboard </li>
           </Link>
-          <Link href='https://erp.driteducation.com/verification/studentdocsverification' style={{ textDecoration: 'none',color:'white' }}>
-            <li>Certificate Verification </li>
+          <Link href='https://edu.supermarks.in/' style={{ textDecoration: 'none', color: 'white' }}>
+            <li>Educator's Dashboard</li>
           </Link>
-          <Link href='https://erp.driteducation.com/verification/centerverification' style={{ textDecoration: 'none',color:'white' }}>
-            <li>Branch Verification </li>
+          <Link href='https://edu.supermarks.in/Login' style={{ textDecoration: 'none', color: 'white' }}>
+            <li>Educator Login </li>
+          </Link>
+          <Link href='https://edu.supermarks.in/Get_Started' style={{ textDecoration: 'none',color:'white' }}>
+            <li>Educator Registration</li>
           </Link>
           
+         
+        
         </div>
         <div className={styles.FooterBox_address}>
           <h3>Contact us</h3>
@@ -98,7 +97,15 @@ const Footer = () => {
             <small>{Contactinfo.ContactEmail}</small>
           </div>
           
-
+          <Link className={styles.AppLogoBox} href='https://play.google.com/store/apps/details?id=com.supermarksapp' style={{ textDecoration: 'none', color: 'white' }}>
+            <div className={styles.AppLogoBoxA}>
+              <div style={{fontSize:'13px', fontWeight:500}}> Download </div>
+              <div style={{fontSize:'18px'}}> SuperMarks App </div>
+            </div>
+            <div className={styles.AppLogoBoxB}>
+              <img src='https://server.supermarks.in/Storage/img/2OUlQplaystore.png' width='100%' />
+            </div>
+          </Link>
 
         </div>
       </div>

@@ -21,9 +21,9 @@ const Account = () => {
 
             <div className={styles.container} style={{ padding: 10 }}>
                 <h3>Contact us</h3>
-                <p>Call us @ +91 8480001075</p>
-                <p>Email us @ contact@driteducation.com</p>
-                <p>Address:  3rd Floor, Astitva Complex, Bhabua, kaimur, Bihar, 821101 IN.</p>
+                <p>Call us @ +91 000000000</p>
+                <p>Email us @ contact@supermarks.in</p>
+                <p>Address:  3rd Floor, Bhabua, kaimur, Bihar, 821101 IN.</p>
             </div>
         </>
     )

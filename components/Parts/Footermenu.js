@@ -32,18 +32,18 @@ const Footermenu = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/Doubts" style={{ textDecoration: 'none' }}>
+                    <Link href="https://ai-chatgpt-1.vercel.app/" style={{ textDecoration: 'none' }}>
                         <div className={styles.footer_menu_btn}>
                             <div className={styles.mobmenu_icon}>
                                 <GrCircleQuestion />
                             </div>
                             <div className={styles.mobmenu_txt}>
-                                Doubts
+                                Ask Doubts
                             </div>
                         </div>
                     </Link>
                    
-                    <Link href="/StudyMaterials" style={{ textDecoration: 'none' }}>
+                    <Link href="/" style={{ textDecoration: 'none' }}>
                         <div className={styles.footer_menu_btn}>
                             <div className={styles.mobmenu_icon}>
                                 <TbNotes />
